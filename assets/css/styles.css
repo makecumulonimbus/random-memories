@@ -1,0 +1,75 @@
+
+body {
+    background: linear-gradient(-45deg, #f7e438, #a5e73c, #23a6d5, #c572fd);
+	background-size: 400% 400%;
+	animation: gradient 30s ease infinite;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.card-box {
+    padding: 1.5rem;
+    width: 200px;
+}
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex-end {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.flex-start {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+@media only screen and (max-width: 768px) {
+    .flex-end {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .flex-start{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  }
+.main-card {
+    margin-bottom: 1rem;
+}
+.box-content{
+    border-radius: 0.5rem;
+    padding: 3rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: white;
+}
+.number{
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 0.5rem;
+}
+.one-container{
+    background-color: #ffe1df !important;
+}
+.two-container{
+    background-color: #deffe4 !important;
+}
+.back-container{
+    background-color: #defff9 !important;
+}
+.font-container{
+    background-color: #dfe4ff !important;
+}
